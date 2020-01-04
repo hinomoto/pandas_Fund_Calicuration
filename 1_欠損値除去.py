@@ -1,10 +1,9 @@
 import pandas as pd
 
 
-#データフレームに格納
-df = pd.read_excel('bloombergデータ.xlsm')
-
-#print(df)
+#EXCELorCSVをインポート。データフレームに格納。 NA があるデータでも可
+df = pd.read_excel('●●.xlsm')
+#df = pd.read_csv('●●.csv')
 
 
 #全ての欠損値を削除
